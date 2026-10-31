@@ -1,0 +1,14 @@
+
+if SHIELD_DOSUKOI4141_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "dosukoi4141"
+
+endif
+
+if SHIELD_DOSUKOI4141_LEFT || SHIELD_DOSUKOI4141_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

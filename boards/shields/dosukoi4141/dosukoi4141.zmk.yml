@@ -1,0 +1,14 @@
+
+file_format: "1"
+id: dosukoi4141
+name: dosukoi4141
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - dosukoi4141_left
+  - dosukoi4141_right

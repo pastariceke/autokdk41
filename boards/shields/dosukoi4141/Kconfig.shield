@@ -1,0 +1,4 @@
+config SHIELD_DOSUKOI4141_LEFT
+    def_bool $(shields_list_contains,dosukoi4141_left)
+config SHIELD_DOSUKOI4141_RIGHT
+    def_bool $(shields_list_contains,dosukoi4141_right)
