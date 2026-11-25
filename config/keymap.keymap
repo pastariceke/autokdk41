@@ -38,11 +38,11 @@
 &kp TAB         &kp Q             &kp W         &kp E         &kp R         &kp T         &kp Y         &kp U         &kp I              &kp O         &kp P          &kp JP_AT   &kp JP_LBRACKET   &kp ENTER      &kp DEL
 &kp CAPSLOCK    &kp A             &kp S         &kp D         &kp F         &kp G         &kp H         &kp J         &kp K              &kp L         &kp SEMICOLON  &kp JP_COLON      &kp JP_RBRACKET  &kp LC(PLUS)  &kp LC(MINUS)
 &kp LEFT_SHIFT  &kp Z             &kp X         &kp C         &kp V         &kp B         &kp N         &kp M         &kp COMMA          &kp PERIOD    &kp SLASH      &kp JP_YEN  &kp PAGE_UP        &kp UP         &kp PAGE_DOWN
-&mo FN           &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &mkp MB1      &kp SPACE     &kp SPACE     &mkp MB2      &kp LANG_HIRAGANA  &kp ESCAPE    &kp HOME       &kp END        &kp LEFT           &kp DOWN       &kp RIGHT
+&mo 1           &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &mkp MB1      &kp SPACE     &kp SPACE     &mkp MB2      &kp LANG_HIRAGANA  &kp ESCAPE    &kp HOME       &kp END        &kp LEFT           &kp DOWN       &kp RIGHT
             >;
         };
 
-        FN {
+        layer_1 {
             bindings = <
 &trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans   &trans  &trans
